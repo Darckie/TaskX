@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project X</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="product-container">
+        <div class="rapper">
+            <h1>YAY! It's BOGO</h1>
+        </div>
+
+
+        <div class="product-option" id="option1" onclick="toggleExpand('option1')">
+            <div class="header">
+                <div class="rightTop">
+                    <input type="radio" name="product" id="one-unit" checked>
+                    <div class="right">
+                        <p> 1 Unit <span class="printPan">10% Off </span> </p>
+                        <p class="unshift shift">Standard Price</p>
+                    </div>
+
+                </div>
+
+                <div class="left">$10.00 USD <span class="Xprice">$24.00 USD</span></div>
+            </div>
+
+            <!-- //hidden box -----------------1 -->
+            <div class="details expand">
+
+                <div class="sizeBox">
+                    <label for="size1">Size</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+
+                    <select id="size2">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+
+
+                <div class="colorBox">
+                    <label for="color2">Color </label>
+                    <select>
+                        <option>red</option>
+                        <option>green</option>
+                        <option>blue</option>
+                    </select>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="product-option" id="option2" onclick="toggleExpand('option2')">
+            <div class="header">
+                <div class="rightTop">
+                    <input type="radio" name="product" id="one-unit" checked>
+                    <div class="right">
+                        <p> 2 Unit <span class="printPan">20% Off </span> </p>
+                        <p class="unshift shift">Most Polular</p>
+                    </div>
+
+                </div>
+
+                <div class="left">$18.00 USD <span class="Xprice">$34.00 USD</span></div>
+            </div>
+
+            <!-- //hidden box -----------------1 -->
+            <div class="details">
+
+                <div class="sizeBox">
+                    <label for="size1">Size</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+
+                    <select id="size2">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+
+
+                <div class="colorBox">
+                    <label for="color2">Color </label>
+                    <select>
+                        <option>red</option>
+                        <option>green</option>
+                        <option>blue</option>
+                    </select>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-option" id="option3" onclick="toggleExpand('option3')">
+            <div class="header">
+                <div class="rightTop">
+                    <input type="radio" name="product" id="one-unit" checked>
+                    <div class="right">
+                        <p> 3 Unit <span class="printPan">30% Off </span> </p>
+                        <p class="unshift shift">Best Price</p>
+                    </div>
+
+                </div>
+
+                <div class="left">$24.00 USD <span class="Xprice">$39.00 USD</span></div>
+            </div>
+
+            <!-- //hidden box -----------------3 -->
+            <div class="details">
+
+                <div class="sizeBox">
+                    <label for="size1">Size</label>
+
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+
+                    <select id="size2">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                </div>
+
+
+                <div class="colorBox">
+                    <label for="color2">Color </label>
+                    <select>
+                        <option>red</option>
+                        <option>green</option>
+                        <option>blue</option>
+                    </select>
+                    <select>
+                        <option>Black</option>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <footer>Free delivery<span class="ttl">Total: <span id="value">$10.00 usd</span></span></footer>
+        <button onclick="submit()" class="add-to-cart"><b style="margin: 0px 8px;">+</b>Add to Cart</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
